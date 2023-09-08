@@ -1,0 +1,176 @@
+
+/* responsive code for laptop */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    
+    .logo{
+        width: 240px;
+    }
+    
+    .menu{
+        width: 700px;
+    }
+    
+    .single-service{
+        width: 313px;
+    }
+    
+    .about-right{
+        width: 630px;
+    }
+    
+    .about-left{
+        width: 320px;
+    }
+    
+    .single-gallery{
+        width: 316px;
+    }
+    
+    }
+    
+    /* responsive code for tablet */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .container{
+        width: 750px;
+      }
+    
+      .logo{
+        width: 170px;
+      }
+    
+      .menu{
+        width: 550px;
+      }
+    
+      .menu ul {
+        margin-top: 7.5px;
+      }
+      
+    
+    
+      .menu ul li a {
+        margin-right: 0px;
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    
+      .single-service{
+        width: 240px;
+      }
+    
+      .single-service h4{
+        font-size: 23px;
+      }
+    
+      .about-left{
+        width: 250px;
+      }
+    
+      .about-right{
+        width: 480px;
+      }
+    
+      .single-gallery{
+        width: 243px;
+      }
+    
+      .contact-form{
+        width: 480px;
+      }
+    
+      .contact-address{
+        width: 250px;
+      }
+    
+      .contact-address ul li{
+        font-size: 14px;
+      }
+    
+      .contact-address ul li span{
+        font-size: 19px;
+      }
+    
+    }
+    
+    /* responsive code for mobile */
+    
+    @media only screen and (max-width: 767px) {
+      
+        .container{
+            width: 300px;
+        }
+    
+        .logo{
+            width: 70%;
+            margin: 0 44px;
+        }
+    
+        .menu {
+            width: 100%;
+        }
+    
+        .menu ul{
+            text-align: center;
+        }
+    
+        .menu ul li{
+            display: inline;
+        }
+    
+        .menu ul li a{
+            margin-right: 0;
+        }
+    
+        .section-title h2{
+            font-size: 30px;
+        }
+    
+        .single-service{
+            width: 100%;
+        }
+    
+        .single-gallery{
+            width: 100%;
+        }
+    
+        .about-left{
+            width: 100%;
+        }
+    
+        .about-right{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    
+        .about-banner h2{
+            font-size: 30px;
+        }
+    
+        .service-banner h2{
+            font-size: 30px;
+        }
+    
+        .gallery-banner h2{
+            font-size: 30px;
+        }
+        .contact-banner h2{
+            font-size: 30px;
+        }
+    
+        .footer p{
+            font-size: 14px;
+        }
+    }
+    
+    /* responsive code for small mobile display*/
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .container{
+    width: 450px;
+      }
+    }
+    
